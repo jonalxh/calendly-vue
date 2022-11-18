@@ -1,5 +1,5 @@
 <template>
-	<div class="calendly-container" data-auto-load="false" style="`width: ${width}; height: ${height};"></div>
+	<div class="calendly-container" data-auto-load="false" :style="`width: ${width}; height: ${height};`"></div>
 </template>
 
 <script>
@@ -16,7 +16,7 @@ export default {
 		},
 		height: {
 			type: String,
-			default: "auto"
+			default: "60vh"
 		}
 	},
 	methods: {

@@ -37,7 +37,7 @@ url prop refers to your personal/business link of calendly, buy only the variabl
 This component does not work in SSR, to use it in Nuxt it is necessary to create a new file named `calendly.client.js` in your `plugins` folder:
 ``` javascript
 // plugins/calendly.client.js
-
+import Vue from "vue";
 import CalendlyVue from 'calendly-vue'
 
 Vue.use(CalendlyVue)
