@@ -69,14 +69,14 @@ Available props to customize the component.
 Events triggered by the component.  
 
 ### @event
-Receives events triggered by the calendly embed,  options are:
+Receives events triggered by the calendly embed, options are:
 
-    | Event name 	                    | Description  	                        |
-    |-----------------------------------|---------------------------------------|
-    | calendly.profile_page_viewed	    | Profile page was viewed	            |
-    | calendly.event_type_viewed  	    | Event type page was viewed 	        |
-    | calendly.date_and_time_selected	| Invitee selected date and time  	    |
-    | calendly.event_scheduled 	        | Invitee successfully booked a meeting |
+| Event name 	                    | Description  	                        |
+|-----------------------------------|---------------------------------------|
+| calendly.profile_page_viewed	    | Profile page was viewed	            |
+| calendly.event_type_viewed  	    | Event type page was viewed 	        |
+| calendly.date_and_time_selected	| Invitee selected date and time  	    |
+| calendly.event_scheduled 	        | Invitee successfully booked a meeting |
 
 You can check the official events documentation [here](https://help.calendly.com/hc/en-us/articles/223147027-Embed-options-overview?tab=advanced#6)
 
