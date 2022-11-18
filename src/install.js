@@ -8,7 +8,7 @@ const CalendlySimple = {
         }
         // Let's register our component globally
         // https://vuejs.org/v2/guide/components-registration.html
-        Vue.component("calendly-vue2", CalendlyVue);
+        Vue.component("calendly-vue", CalendlyVue);
         installed = true
     }
 };

@@ -32,16 +32,18 @@ export default {
 			}
 		},
 		createCalendlyInstance() {
-			try {
-				window.Calendly.initInlineWidget({
-					url: `https://calendly.com/${this.url}?hide_gdpr_banner=1`,
-					parentElement: document.querySelector(".calendly-container"),
-					prefill: {}, //TODO: Add prefill functionality
-				});
+			if (typeof window !== "undefined") {
+				try {
+					window.Calendly.initInlineWidget({
+						url: `https://calendly.com/${this.url}?hide_gdpr_banner=1`,
+						parentElement: document.querySelector(".calendly-container"),
+						prefill: {}, //TODO: Add prefill functionality
+					});
 
-				this.listenToEvents();
-			} catch (error) {
-				this.$emit("error", error);
+					this.listenToEvents();
+				} catch (error) {
+					this.$emit("error", error);
+				}
 			}
 		},
 		isCalendlyEvent(e) {

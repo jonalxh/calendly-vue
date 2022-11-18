@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <calendly-vue />
+    <CalendlyVue url="alguien-123"/>
   </div>
 </template>
 
