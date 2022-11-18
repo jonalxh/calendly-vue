@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Calendly />
+    <calendly-vue />
   </div>
 </template>
 
 <script>
-import Calendly from './components/Calendly.vue'
+import CalendlyVue from './components/Calendly.vue'
 
 export default {
   name: 'App',
   components: {
-    Calendly
+    CalendlyVue
   }
 }
 </script>

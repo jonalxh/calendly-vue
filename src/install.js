@@ -1,4 +1,4 @@
-import Calendly from "./components/Calendly.vue";
+import CalendlyVue from "./components/Calendly.vue";
 let installed = false;
 
 const CalendlySimple = {
@@ -8,7 +8,7 @@ const CalendlySimple = {
         }
         // Let's register our component globally
         // https://vuejs.org/v2/guide/components-registration.html
-        Vue.component("calendly-vue", Calendly);
+        Vue.component("calendly-vue2", CalendlyVue);
         installed = true
     }
 };
