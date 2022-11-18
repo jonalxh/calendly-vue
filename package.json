@@ -1,7 +1,7 @@
 {
   "name": "calendly-vue",
   "description": "A simple Vue.js component to embed calendly in your web app",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "private": false,
   "author": {
     "name": "Jonathan Arias",

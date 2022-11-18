@@ -1,5 +1,5 @@
 <template>
-	<div class="calendly-container" data-auto-load="false"></div>
+	<div class="calendly-container" data-auto-load="false" style="`width: ${width}; height: ${height};"></div>
 </template>
 
 <script>
@@ -10,6 +10,14 @@ export default {
 			type: String,
 			required: true,
 		},
+		width: {
+			type: String,
+			default: "auto"
+		},
+		height: {
+			type: String,
+			default: "auto"
+		}
 	},
 	methods: {
 		importCalendly() {
@@ -72,6 +80,6 @@ export default {
 <style scoped>
 .calendly-container {
 	min-width: 320px;
-	height: 580px;
+	min-height: 300px;
 }
 </style>
