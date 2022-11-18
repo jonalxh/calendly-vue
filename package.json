@@ -1,11 +1,23 @@
 {
   "name": "calendly-vue",
+  "description": "A simple Vue.js component to embed calendly in your web app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "Jonathan Arias"
+  },
+  "repository": "https://github.com/jonalxh/calendly-vue.git",
+  "keywords": ["vue", "calendly", "web component", "wc"],
+  "license": "MIT",
+  "main": ".dist/calendly-vue.common.js",
+  "unpkg": "dist/calendly-vue.min.js",
+  "files": ["dist/*"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-library" : "vue-cli-service build --target lib --name calendly-vue ./src/install.js",
+    "publish": ""
   },
   "dependencies": {
     "core-js": "^3.8.3",
