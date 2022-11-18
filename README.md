@@ -59,10 +59,11 @@ plugins: [
 ## Props
 Available props to customize the component.  
 
-| Name 	    | Description  	                                                                | Required  | Default
-| url	    | The profile or business account segment of the calendly URL e.g (someone-123) | true      | null
-| width  	| Sets a custom width to the calendly container	 (can receive px, %, em, vw)    | false     | 100%
-| height	| Sets a custom height to the calendly container (can receive px, %, em, vh)    | false     | 60vh
+| Name 	    | Description  	                                                                | Required  | Default|
+|-----------|-------------------------------------------------------------------------------|-----------|--------|
+| url	    | The profile or business account segment of the calendly URL e.g (someone-123) | true      | null  |
+| width  	| Sets a custom width to the calendly container	 (can receive px, %, em, vw)    | false     | 100%  |
+| height	| Sets a custom height to the calendly container (can receive px, %, em, vh)    | false     | 60vh  |
 
 ## Events
 Events triggered by the component.  
@@ -71,6 +72,7 @@ Events triggered by the component.
 Receives events triggered by the calendly embed,  options are:
 
     | Event name 	                    | Description  	                        |
+    |-----------------------------------|---------------------------------------|
     | calendly.profile_page_viewed	    | Profile page was viewed	            |
     | calendly.event_type_viewed  	    | Event type page was viewed 	        |
     | calendly.date_and_time_selected	| Invitee selected date and time  	    |
@@ -114,5 +116,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
-** Tutorial followed to create this package**
+**Tutorial followed to create this package**
 https://5balloons.info/create-publish-you-first-vue-plugin-on-npm-the-right-way/
