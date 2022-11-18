@@ -1,6 +1,7 @@
 # Calendly Vue
 
 A simple Vue.js component to embed calendly in your web app.
+It uses Calendly Inline widget by the moment, in future versions Pop-up text and Pop-up widget is going to be implemented.
 
 ## Install
 ``` sh
