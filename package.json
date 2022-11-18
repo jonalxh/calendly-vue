@@ -10,7 +10,6 @@
   "keywords": ["vue", "calendly", "web component", "wc"],
   "license": "MIT",
   "main": ".dist/calendly-vue.common.js",
-  "unpkg": "dist/calendly-vue.min.js",
   "files": ["dist/*"],
   "scripts": {
     "serve": "vue-cli-service serve",

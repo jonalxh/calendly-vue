@@ -1,9 +1,11 @@
-# calendly-vue
+# Calendly Vue
 
 A simple Vue.js component to embed calendly in your web app.
 
 ## Install
-`npm i calendly-vue`
+``` sh
+npm i calendly-vue
+```
 
 ## Usage
 
@@ -25,10 +27,10 @@ export default {
 
 Use in your HTML section:
 ``` html
-    <calendly-vue url="someone-123" @event="logEvent" @event-details="logEvent" @error="logEvent"></calendly-vue>
+<calendly-vue url="someone-123" @event="logEvent" @event-details="logEvent" @error="logEvent"></calendly-vue>
 ```
 
-url prop refers to your personal/business link of calendly, buy only the variable part, i.e https://calendly.com/someone-123, we only need the someone-123 segment.
+url prop refers to your personal/business link of calendly, buy only the variable part, i.e having the URL https://calendly.com/someone-123, we only need the `someone-123` segment.
 
 
 
