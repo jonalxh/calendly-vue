@@ -117,4 +117,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 **Tutorial followed to create this package**
-https://5balloons.info/create-publish-you-first-vue-plugin-on-npm-the-right-way/
+[Here](https://5balloons.info/create-publish-you-first-vue-plugin-on-npm-the-right-way/)
